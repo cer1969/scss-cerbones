@@ -1,0 +1,16 @@
+{
+  "name": "cerbones",
+  "version": "0.1.0",
+  "description": "SCSS con normalize y skeleton",
+  "main": "test.html",
+  "scripts": {
+    "dev":  "node-sass -w --output-style expanded src/cerbones.scss -o out",
+    "dev2": "node-sass -w --source-map true --output-style compressed src/cerbones.scss -o out",
+    "prod": "node-sass --source-map true --output-style compressed src/cerbones.scss -o out"
+  },
+  "author": "Cristian Echeverría <cer1969@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^3.8.0"
+  }
+}
