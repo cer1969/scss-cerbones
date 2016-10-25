@@ -6,7 +6,8 @@
   "scripts": {
     "dev":  "node-sass -w --output-style expanded src/cerbones.scss -o out",
     "dev2": "node-sass -w --source-map true --output-style compressed src/cerbones.scss -o out",
-    "prod": "node-sass --source-map true --output-style compressed src/cerbones.scss -o out"
+    "prod": "node-sass --source-map true --output-style compressed src/cerbones.scss -o out",
+    "vuecer": "node-sass -w --source-map true --output-style compressed src/vuecer.scss -o ../walloy/public/css"
   },
   "author": "Cristian Echeverría <cer1969@gmail.com>",
   "license": "MIT",
