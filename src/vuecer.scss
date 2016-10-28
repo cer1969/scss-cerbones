@@ -2,11 +2,9 @@
  *
  */
 
-$f-family: Helvetica, "HelveticaNeue", "Helvetica Neue", Arial, sans-serif;
 $f-size: 13px;
 
 @import "lib/cer-normalize";
-/*@import "lib/cer-skeleton";*/
 
 /*------------------------------------------------------------------------------------------------
  * Cristian Echeverría
@@ -14,6 +12,6 @@ $f-size: 13px;
  *
  */
 
- h1, h2 {
+ h1, h2, h3 {
 	 font-weight: 500;
  }
